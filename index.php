@@ -57,7 +57,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <i class="bi bi-list toggle-sidebar-btn"></i>
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">Insurance Project</span>
 
@@ -79,70 +79,19 @@
   </header><!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="index.html">
-            <i class="bi bi-grid"></i>
-            <span>Home</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="about.html">
-            <i class="bi bi-grid"></i>
-            <span>About Us</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="contact.html">
-            <i class="bi bi-envelope"></i>
-            <span>Contact</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link " href="pricing.html">
-            <i class="bi bi-grid"></i>
-            <span>Pricing</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="client.html">
-            <i class="bi bi-grid"></i>
-            <span>Client</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="login.html">
-            <i class="bi bi-grid"></i>
-            <span>Sign in</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="register.html">
-            <i class="bi bi-grid"></i>
-            <span>Register</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-      </ul>
-
-  </aside><!-- End Sidebar-->
+  <?php 
+  include 'include/sidebar.php';
+  ?>
+<!-- End Sidebar-->
 
   <main id="main" class="main">
 
     <div class="pagetitle">
 
-      <h1>Pricing</h1>
+      <h1>Home</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Pricing</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -157,77 +106,120 @@
             <!-- Sales Card -->
             <div class="col-xxl-12 col-md-12">
               <div class="card info-card sales-card">
+
                 <div class="card-body">
-                  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                    <h1 class="display-4 fw-normal">Pricing</h1>
-                    <p class="text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
-                  </div>
-                  <div class="row row-cols-1 row-cols-md-3 m-3 text-center">
-                    <div class="col">
-                      <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                          <h4 class="my-0 fw-normal">Free</h4>
-                        </div>
-                        <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-                          <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                          </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                          <h4 class="my-0 fw-normal">Pro</h4>
-                        </div>
-                        <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                          <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                          </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-white bg-primary border-primary">
-                          <h4 class="my-0 fw-normal">Enterprise</h4>
-                        </div>
-                        <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
-                          <ul class="list-unstyled mt-3 mb-4">
-                            <li>30 users included</li>
-                            <li>15 GB of storage</li>
-                            <li>Phone and email support</li>
-                            <li>Help center access</li>
-                          </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <h5 class="mt-4 card-title text-center">
+                    "Upload your insurance policy here and we will tell you what your insurance agent didn’t you.
+                    You will know if you have overpaid your insurance, and you may cash out
+                    what you have paid for the last few years without compromising the protection on your current
+                    policy.”
+                  </h5>
                 </div>
               </div>
             </div>
+
+            <section class="section">
+              <div class="row">
+                <div class="col-lg-12">
+
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="text-muted small pt-2"> “Upload your policy and mobile number, our agents will
+                        contact you soon.”</h5>
+
+                      <!-- General Form Elements -->
+                      <form>
+
+                        <div class="row mb-3">
+                          <label for="inputMobileNumber" class="col-sm-2 col-form-label">Mobile Number</label>
+                          <div class="col-sm-10">
+                            <input type="mobile number" class="form-control">
+                          </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                          <div class="col-sm-10">
+                            <input type="email" class="form-control">
+                          </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <label for="inputOccupation" class="col-sm-2 col-form-label">Occupation</label>
+                          <div class="col-sm-10">
+                            <input type="occupation" class="form-control" required>
+                          </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <label for="inputNumber" class="col-sm-2 col-form-label">File Upload</label>
+                          <div class="col-sm-10">
+                            <input class="form-control" type="file" id="formFile" multiple ondrop="drop(event)"
+                              ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event)">
+
+                          </div>
+                        </div>
+
+
+
+                        <div class="row mb-3">
+                          <legend class="col-form-label col-sm-2 pt-0">Term and Condition</legend>
+                          <div class="col-sm-10">
+
+
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck2" checked>
+                              <label class="form-check-label" for="gridCheck2">
+                                I have read and agree with the terms and conditions.
+                              </label>
+                            </div>
+
+                          </div>
+                        </div>
+
+
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label">Submit Button</label>
+                          <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit Form</button>
+                          </div>
+                        </div>
+
+                        <div class="fb-share-button" data-href="http://localhost/insurance-policy/" data-layout="button"
+                          data-size="small"><a target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%2Finsurance-policy%2F&amp;src=sdkpreparse"
+                            class="fb-xfbml-parse-ignore">Share</a></div>
+                        <div class="social-links mt-2 text-center">
+
+                          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com"
+                            class="facebook"><i class="bi bi-facebook"></i></a>
+                          <a href="https://www.instagram.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com"
+                            class="instagram"><i class="bi bi-instagram"></i></a>
+
+                        </div>
+
+                    </div>
+                  </div>
+
+
+
+                  </form><!-- End General Form Elements -->
+
+
+
+                </div>
+              </div>
+
           </div>
         </div>
     </section>
 
 
-    <div class="text-center">
-      <span class="small pt-4 ps-6 ">
-        “Join our FREE seminar and let the experts tell you the truth about your insurance policy“
-      </span>
-    </div>
+
+    <span class="text-center small pt-4 ps-6 ">
+      “Join our FREE seminar and let the experts tell you the truth about your insurance policy“
+    </span>
+
 
 
 

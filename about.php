@@ -64,62 +64,11 @@
   </header><!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link " href="index.html">
-          <i class="bi bi-grid"></i>
-          <span>Home</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="about.html">
-          <i class="bi bi-grid"></i>
-          <span>About Us</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="contact.html">
-          <i class="bi bi-envelope"></i>
-          <span>Contact</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pricing.html">
-          <i class="bi bi-grid"></i>
-          <span>Pricing</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="client.html">
-          <i class="bi bi-grid"></i>
-          <span>Client</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="login.html">
-          <i class="bi bi-grid"></i>
-          <span>Sign in</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="register.html">
-          <i class="bi bi-grid"></i>
-          <span>Register</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-    </ul>
-
-    
-  </aside><!-- End Sidebar-->
+  <?php 
+  include 'include/sidebar.php';
+  ?>
+  
+  <!-- End Sidebar-->
 
   <main id="main" class="main">
     <style>
