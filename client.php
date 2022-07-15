@@ -79,61 +79,10 @@
   </header><!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link " href="index.html">
-          <i class="bi bi-grid"></i>
-          <span>Home</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="about.html">
-          <i class="bi bi-grid"></i>
-          <span>About Us</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="contact.html">
-          <i class="bi bi-envelope"></i>
-          <span>Contact</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pricing.html">
-          <i class="bi bi-grid"></i>
-          <span>Pricing</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="client.html">
-          <i class="bi bi-grid"></i>
-          <span>Client</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="login.html">
-          <i class="bi bi-grid"></i>
-          <span>Sign in</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="register.html">
-          <i class="bi bi-grid"></i>
-          <span>Register</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-    </ul>
-
-  </aside><!-- End Sidebar-->
+  <?php 
+  include 'include/sidebar.php';
+  ?>
+  <!-- End Sidebar-->
 
   <main id="main" class="main">
 
@@ -149,14 +98,14 @@
           <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
+              <img src="image/May.png" alt="Profile" class="rounded-circle">
+              <h2>Maybank</h2>
+              <h3>Malayan Banking Berhad</h3>
               <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/MyMaybank" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/Maybank" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/mymaybank/" class="instagram"><i class="bi bi-instagram"></i></a>
+              
               </div>
             </div>
           </div>
