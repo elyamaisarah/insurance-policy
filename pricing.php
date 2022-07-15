@@ -109,7 +109,7 @@
                 <div class="card-body">
                   <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                     <h1 class="display-4 fw-normal">Pricing</h1>
-                    <p class="text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+                    <p class="text-muted">Pick the best plan that meets your business needs. A free trial is available to help you with the decision-making.</p>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3 m-3 text-center">
                     <div class="col">
@@ -118,48 +118,51 @@
                           <h4 class="my-0 fw-normal">Free</h4>
                         </div>
                         <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                          <h1 class="card-title pricing-card-title">RM0<small class="text-muted fw-light">/mo</small></h1>
                           <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
+                            <li>Life Insurance</li>
+                            <li>Basic Coverage</li>
+                            <li>Home Insurance</li>
+                            <li>Personal Account</li>
+                            <li>Phone Support</li>
                           </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                          <a href="register.php" class="w-100 btn btn-lg btn-primary">Sign Up</a>
                         </div>
                       </div>
                     </div>
                     <div class="col">
                       <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                          <h4 class="my-0 fw-normal">Pro</h4>
+                          <h4 class="my-0 fw-normal">Starter</h4>
                         </div>
                         <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                          <h1 class="card-title pricing-card-title">RM99<small class="text-muted fw-light">/mo</small></h1>
                           <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
+                            <li>Car Insurance</li>
+                            <li>Increased Coverage</li>
+                            <li>Travel Insurance</li>
+                            <li>Free Mobile App</li>
+                            <li>Online Support</li>
                           </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                          <a href="register.php" class="w-100 btn btn-lg btn-primary">Sign Up</a>
                         </div>
                       </div>
                     </div>
                     <div class="col">
                       <div class="card mb-4 rounded-3 shadow-sm border-primary">
                         <div class="card-header py-3 text-white bg-primary border-primary">
-                          <h4 class="my-0 fw-normal">Enterprise</h4>
+                          <h4 class="my-0 fw-normal">Business</h4>
                         </div>
                         <div class="card-body">
-                          <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                          <h1 class="card-title pricing-card-title">RM129<small class="text-muted fw-light">/mo</small></h1>
                           <ul class="list-unstyled mt-3 mb-4">
-                            <li>30 users included</li>
-                            <li>15 GB of storage</li>
-                            <li>Phone and email support</li>
-                            <li>Help center access</li>
+                            <li>Business Insurance</li>
+                            <li>Advanced Coverage</li>
+                            <li>Law Insurance</li>
+                            <li>Free Insurance Report</li>
+                            <li>24/7 Support</li>
                           </ul>
-                          <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                          <a href="register.php" class="w-100 btn btn-lg btn-primary">Sign Up</a>
                         </div>
                       </div>
                     </div>
