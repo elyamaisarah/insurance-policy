@@ -135,7 +135,7 @@
 
                   <div class="row">
                     <div class="col-lg-3 col-md-4 label">Company</div>
-                    <div class="col-lg-9 col-md-8">Insurance Policy SDN.BHD</div>
+                    <div class="col-lg-9 col-md-8">Insurance Policy SDN BHD</div>
                   </div>
 
                   <div class="row">
@@ -150,12 +150,12 @@
 
                   <div class="row">
                     <div class="col-lg-3 col-md-4 label">Address</div>
-                    <div class="col-lg-9 col-md-8">A108 Adam Street, New York, NY 535022</div>
+                    <div class="col-lg-9 col-md-8">University Putra Malaysia, Serdang, Malaysia 43000</div>
                   </div>
 
                   <div class="row">
                     <div class="col-lg-3 col-md-4 label">Phone</div>
-                    <div class="col-lg-9 col-md-8">(60) 196342679</div>
+                    <div class="col-lg-9 col-md-8">(60) 19-6342679</div>
                   </div>
 
                   <div class="row">
@@ -183,12 +183,12 @@
 
                 <div class="row">
                   <div class="col-lg-3 col-md-4 label ">Full Name</div>
-                  <div class="col-lg-9 col-md-8">NUR HANIS HAZIQAH BINTI HISHAM HAIZAD</div>
+                  <div class="col-lg-9 col-md-8">Nur Hanis Haziqah binti Hisham Haizad</div>
                 </div>
 
                 <div class="row">
                   <div class="col-lg-3 col-md-4 label">Company</div>
-                  <div class="col-lg-9 col-md-8">Lueilwitz, Wisoky and Leuschke</div>
+                  <div class="col-lg-9 col-md-8">Insurance Policy SDN BHD</div>
                 </div>
 
                 <div class="row">
@@ -198,7 +198,7 @@
 
                 <div class="row">
                   <div class="col-lg-3 col-md-4 label">Country</div>
-                  <div class="col-lg-9 col-md-8">MALAYSIA</div>
+                  <div class="col-lg-9 col-md-8">Malaysia</div>
                 </div>
 
                 <div class="row">
@@ -208,7 +208,7 @@
 
                 <div class="row">
                   <div class="col-lg-3 col-md-4 label">Phone</div>
-                  <div class="col-lg-9 col-md-8">0145398667</div>
+                  <div class="col-lg-9 col-md-8">(60) 14-5398667</div>
                 </div>
 
                 <div class="row">
