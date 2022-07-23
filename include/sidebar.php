@@ -3,7 +3,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.php">
+        <a class="nav-link collapsed" href="index.php">
           <i class="bi bi-grid"></i>
           <span>Home</span>
         </a>
@@ -18,7 +18,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="contact.php">
-          <i class="bi bi-envelope"></i>
+          <i class="bi bi-grid"></i>
           <span>Contact</span>
         </a>
       </li><!-- End Contact Page Nav -->
@@ -38,17 +38,23 @@
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="login.php">
+        <a class="nav-link collapsed" href="register-seminar.php">
           <i class="bi bi-grid"></i>
-          <span>Sign in</span>
+          <span>Register Seminar</span>
         </a>
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="register.php">
+        <a class="nav-link collapsed" href="seminar.php">
           <i class="bi bi-grid"></i>
-          <span>Register</span>
+          <span>Seminars List</span>
         </a>
-      </li><!-- End Contact Page Nav -->
+      </li><!-- End Dashboard Nav -->
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="admin/index.php">
+          <i class="bi bi-grid"></i>
+          <span>Admin (temp)</span>
+        </a>
+      </li>End Contact Page Nav -->
     </ul>
   </aside>
