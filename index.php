@@ -52,31 +52,17 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
+ <!-- ======= Header ======= -->
+ <?php 
+  include 'include/header.php';
+  //add seminar
+  if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['addContact'])) {
 
-    <div class="d-flex align-items-center justify-content-between">
-      <i class="bi bi-list toggle-sidebar-btn"></i>
-      <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Insurance Project</span>
-
-      </a>
-
-    </div><!-- End Logo -->
-
-    <nav class="header-nav ms-auto">
-      <ul class="d-flex align-items-center">
-
-        <li class="nav-item d-block d-lg-none">
-          <a class="nav-link nav-icon search-bar-toggle " href="#">
-            <i class="bi bi-search"></i>
-          </a>
-        </li><!-- End Search Icon-->
-      </ul>
-    </nav><!-- End Icons Navigation -->
-
-  </header><!-- End Header -->
+    $data = $controllers->addContact($_POST);
+  }
+?><!-- End Header -->
+  ?>
+  <!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
   <?php 
@@ -95,8 +81,16 @@
         </ol>
       </nav>
     </div><!-- End Page Title -->
-
-    <section class="section dashboard">
+    <?php $msg = Session::get('msg');
+              if (isset($msg)) {
+              echo $msg;
+              }
+              Session::set("msg", NULL);
+              if (isset($userAdd)) {
+                  echo $userAdd;
+                }
+      ?>
+  <section class="section dashboard">
       <div class="row">
 
         <!-- Left side columns -->
@@ -124,39 +118,37 @@
 
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="text-muted small pt-2"> “Upload your policy and mobile number, our agents will
+                      <h5 class="text-muted small pt-4 pb-4"> “Upload your policy and mobile number, our agents will
                         contact you soon.”</h5>
 
                       <!-- General Form Elements -->
-                      <form>
+                      <form method="POST" enctype="multipart/form-data">
 
                         <div class="row mb-3">
                           <label for="inputMobileNumber" class="col-sm-2 col-form-label">Mobile Number</label>
                           <div class="col-sm-10">
-                            <input type="mobile number" class="form-control">
+                            <input type="mobile number" name="phone" class="form-control">
                           </div>
                         </div>
 
                         <div class="row mb-3">
                           <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                           <div class="col-sm-10">
-                            <input type="email" class="form-control">
+                            <input type="email" name="email" class="form-control">
                           </div>
                         </div>
 
                         <div class="row mb-3">
                           <label for="inputOccupation" class="col-sm-2 col-form-label">Occupation</label>
                           <div class="col-sm-10">
-                            <input type="occupation" class="form-control" required>
+                            <input type="occupation" name="job" class="form-control" required>
                           </div>
                         </div>
 
                         <div class="row mb-3">
                           <label for="inputNumber" class="col-sm-2 col-form-label">File Upload</label>
                           <div class="col-sm-10">
-                            <input class="form-control" type="file" id="formFile" multiple ondrop="drop(event)"
-                              ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event)">
-
+                            <input class="form-control" name="file" type="file" id="formFile">
                           </div>
                         </div>
 
@@ -178,18 +170,11 @@
                         </div>
 
 
-                        <div class="row mb-3">
-                          <label class="col-sm-2 col-form-label">Submit Button</label>
-                          <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Submit Form</button>
+                        <div class="row mb-3" style="float: right;">
+                          <div class="col-sm-12">
+                            <button type="submit" name="addContact" class="btn btn-primary">Submit Form</button>
                           </div>
                         </div>
-
-                        <div class="fb-share-button" data-href="http://localhost/insurance-policy/" data-layout="button"
-                          data-size="small"><a target="_blank"
-                            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%2Finsurance-policy%2F&amp;src=sdkpreparse"
-                            class="fb-xfbml-parse-ignore">Share</a></div>
-                        <div class="social-links mt-2 text-center">
 
                           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com"
                             class="facebook"><i class="bi bi-facebook"></i></a>
