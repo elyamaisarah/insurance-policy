@@ -116,14 +116,14 @@
           <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
+              <img src="image/perodua.png" alt="Profile" class="rounded-circle">
+              <h2>Perodua</h2>
+              <h5>Cars Manufacturer</h5>
               <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/perodua" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/Perodua" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/perodua/" class="instagram"><i class="bi bi-instagram"></i></a>
+               
               </div>
             </div>
           </div>
@@ -134,14 +134,14 @@
           <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
+              <img src="image/bimb.png" alt="Profile" class="rounded-circle">
+              <h2>BANK ISLAM</h2>
+              <h3>Islamic Banking Company</h3>
               <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/myBankIslam" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/BankIslamFB" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/bankislam/" class="instagram"><i class="bi bi-instagram"></i></a>
+                
               </div>
             </div>
           </div>
@@ -152,14 +152,32 @@
           <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
+              <img src="image/redbus.png" alt="Profile" class="rounded-circle">
+              <h2>Redbus</h2>
+              <h3>Online Bus Booking</h3>
               <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/redBus_in" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/redBus.my" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/redbusmy/" class="instagram"><i class="bi bi-instagram"></i></a>
+              
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xl-4">
+
+          <div class="card">
+            <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
+
+              <img src="image/shopee.png" alt="Profile" class="rounded-circle">
+              <h2>Shopee</h2>
+              <h3>E-commerce Company</h3>
+              <div class="social-links mt-2">
+                <a href="https://twitter.com/ShopeeMY" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/ShopeeMY/?brand_redir=1542166686041969#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/shopee_my/" class="instagram"><i class="bi bi-instagram"></i></a>
+                
               </div>
             </div>
           </div>
@@ -170,32 +188,14 @@
           <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
+              <img src="image/proton.jpg" alt="Profile" class="rounded-circle">
+              <h2>Proton</h2>
+              <h3>Automotive Company</h3>
               <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-xl-4">
-
-          <div class="card">
-            <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
-
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-              <h2>Kevin Anderson</h2>
-              <h3>Web Designer</h3>
-              <div class="social-links mt-2">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/protonmsia" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/ProtonCarsOfficial" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/protoncars/" class="instagram"><i class="bi bi-instagram"></i></a>
+                
               </div>
             </div>
           </div>
